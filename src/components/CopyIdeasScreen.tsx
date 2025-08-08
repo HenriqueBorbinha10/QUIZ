@@ -198,7 +198,7 @@ const CopyIdeasScreen = ({ videoTypes, videosPerDay, onBack, onGenerateVideos }:
           
           <Button
             className="flex-1 bg-tiktok-red hover:bg-tiktok-red/90 text-tiktok-red-foreground"
-            onClick={onGenerateVideos}
+            onClick={() => window.location.href = 'https://www.appgelatina.online/apresentacao'}
           >
             Publish Videos
           </Button>
