@@ -200,7 +200,7 @@ const HomeScreen = ({ onContinue }: HomeScreenProps) => {
 
         {!canContinue && (
           <p className="text-sm text-muted-foreground text-center">
-            Please fill in your TikTok handle, select at least one video type, and choose videos per day to continue
+            Please fill in your TikTok handle, select at least one video type, and choose videos per day to continue.
           </p>
         )}
       </div>
